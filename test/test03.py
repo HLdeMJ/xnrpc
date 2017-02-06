@@ -5,8 +5,8 @@
 import unittest
 from xnrpc.server import RpcInterface, ServerManager
 from xnrpc.client import open_client
-from xnrpc.common.log import get_log
 from xnrpc.subproc import proc_cmd
+from xnrpc.common.log import get_log
 _log = get_log(__name__)
 
 
