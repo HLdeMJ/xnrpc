@@ -126,13 +126,13 @@ class OperationThread(ServerThread):
 class OperationRpcInterface(RpcInterface):
 
     def ls_file(self):
-        """两种调用方法"""
+        """调用manager中另一个线程的方法"""
         _log.info('Operation ls file, now I call thread method')
         self._manager.opthread.work()
         return None
 
     def check_ip(self):
-        """管道命令"""
+        """省略"""
         _log.info('Operation check ip, now I do nothing')
         return None
 

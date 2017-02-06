@@ -5,7 +5,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='xnrpc',
-    version='1.0.0',
+    version='1.0.1',
     packages = find_packages(),
     # Project uses , so ensure
     install_requires=[
@@ -22,7 +22,7 @@ setup(
     url='https://github.com/yidao620c/xnrpc',
     author='Xiong Neng',
     author_email='yidao620@gmail.com',
-    license='Apache License 2.0',
+    license='MIT',
     classifiers=[
         'Development Status :: 4 - Beta',
         'Intended Audience :: Developers',
@@ -35,6 +35,6 @@ setup(
         'Programming Language :: Python :: 3.4',
         'Programming Language :: Python :: 3.5',
     ],
-    keywords=['xnrpc', 'gevent', 'zerorpc'],
+    keywords=['xnrpc', 'gevent', 'zerorpc', 'subprocess'],
 )
 
