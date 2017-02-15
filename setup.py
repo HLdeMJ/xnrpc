@@ -5,7 +5,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='xnrpc',
-    version='1.0.1',
+    version='1.2.2',
     packages = find_packages(),
     # Project uses , so ensure
     install_requires=[
@@ -19,6 +19,7 @@ setup(
         'test': ['*.msg'],
     },
     description='simple rpc based on zerorpc and gevent',
+    long_description=open("README.rst").read(),
     url='https://github.com/yidao620c/xnrpc',
     author='Xiong Neng',
     author_email='yidao620@gmail.com',
